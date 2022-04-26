@@ -13,6 +13,16 @@
 
 }
 
+.pagination button{
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid orange;
+}
+.pagination .selected{
+    background-color: orange;
+    color: white;
+}
+
 @media screen and (max-width:1300px){
     .products-container{
         grid-template-columns: repeat(2, 1fr);
